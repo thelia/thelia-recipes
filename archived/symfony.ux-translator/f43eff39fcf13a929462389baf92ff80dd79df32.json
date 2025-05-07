@@ -1,0 +1,21 @@
+{
+    "manifests": {
+        "symfony/ux-translator": {
+            "manifest": {
+                "bundles": {
+                    "Symfony\\UX\\Translator\\UxTranslatorBundle": [
+                        "all"
+                    ]
+                },
+                "conflict": {
+                    "symfony/flex": "<1.20.0 || >=2.0.0,<2.3.0"
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": [],
+            "ref": "f43eff39fcf13a929462389baf92ff80dd79df32"
+        }
+    }
+}

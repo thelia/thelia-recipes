@@ -1,0 +1,20 @@
+{
+    "manifests": {
+        "symfony/ux-react": {
+            "manifest": {
+                "bundles": {
+                    "Symfony\\UX\\React\\ReactBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": [],
+                "conflict": {
+                    "symfony/webpack-encore-bundle": "<2.0",
+                    "symfony/flex": "<1.20.0 || >=2.0.0,<2.3.0"
+                }
+            },
+            "files": [],
+            "ref": "f4953b901de3e29f3009de3c42f0c89c996c1f95"
+        }
+    }
+}

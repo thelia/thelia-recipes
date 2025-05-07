@@ -1,0 +1,66 @@
+{
+  "aliases": {
+    "stimulus": "symfony/stimulus-bundle",
+    "stimulus-bundle": "symfony/stimulus-bundle",
+    "stimulusbundle": "symfony/stimulus-bundle",
+    "twig-bundle": "symfony/twig-bundle",
+    "twigbundle": "symfony/twig-bundle",
+    "ux-icons": "symfony/ux-icons",
+    "ux-live-component": "symfony/ux-live-component",
+    "ux-react": "symfony/ux-react",
+    "ux-translator": "symfony/ux-translator",
+    "ux-twig-component": "symfony/ux-twig-component",
+    "uxicons": "symfony/ux-icons",
+    "uxlivecomponent": "symfony/ux-live-component",
+    "uxreact": "symfony/ux-react",
+    "uxtranslator": "symfony/ux-translator",
+    "uxtwigcomponent": "symfony/ux-twig-component",
+    "webpack-encore-bundle": "symfony/webpack-encore-bundle",
+    "webpackencorebundle": "symfony/webpack-encore-bundle"
+  },
+  "recipes": {
+    "symfony/stimulus-bundle": ["2.9"],
+    "symfony/twig-bundle": ["6.4"],
+    "symfony/ux-icons": ["2.17"],
+    "symfony/ux-live-component": ["2.6"],
+    "symfony/ux-react": ["2.9"],
+    "symfony/ux-translator": ["2.9"],
+    "symfony/ux-twig-component": ["2.13"],
+    "symfony/webpack-encore-bundle": ["2.1"]
+  },
+  "recipe-conflicts": {
+    "symfony/stimulus-bundle": {
+      "2.9": {
+        "symfony/flex": "<1.20.0 || >=2.0.0,<2.3.0",
+        "symfony/webpack-encore-bundle": "<2.0"
+      }
+    },
+    "symfony/twig-bundle": {
+      "6.4": {
+        "symfony/framework-bundle": "<5.3"
+      }
+    },
+    "symfony/ux-react": {
+      "2.9": {
+        "symfony/flex": "<1.20.0 || >=2.0.0,<2.3.0",
+        "symfony/webpack-encore-bundle": "<2.0"
+      }
+    },
+    "symfony/ux-translator": {
+      "2.9": {
+        "symfony/flex": "<1.20.0 || >=2.0.0,<2.3.0"
+      }
+    }
+  },
+  "versions": [],
+  "branch": "main",
+  "is_contrib": true,
+  "_links": {
+    "repository": "github.com/thelia/thelia-recipes",
+    "origin_template": "{package}:{version}@github.com/thelia/thelia-recipes:main",
+    "recipe_template": "https://raw.githubusercontent.com/thelia/thelia-recipes/main/{package_dotted}.{version}.json",
+    "recipe_template_relative": "{package_dotted}.{version}.json",
+    "archived_recipes_template": "https://raw.githubusercontent.com/thelia/thelia-recipes/main/archived/{package_dotted}/{ref}.json",
+    "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
+  }
+}

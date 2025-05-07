@@ -1,0 +1,15 @@
+{
+    "manifests": {
+        "symfony/ux-icons": {
+            "manifest": {
+                "bundles": {
+                    "Symfony\\UX\\Icons\\UXIconsBundle": [
+                        "all"
+                    ]
+                }
+            },
+            "files": [],
+            "ref": "001e68a7e62468a30c32792ec8d4dabbc596917c"
+        }
+    }
+}

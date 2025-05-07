@@ -1,0 +1,31 @@
+{
+    "manifests": {
+        "symfony/ux-twig-component": {
+            "manifest": {
+                "bundles": {
+                    "Symfony\\UX\\TwigComponent\\TwigComponentBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/twig_component.yaml": {
+                    "contents": [
+                        "twig_component:",
+                        "  anonymous_template_directory: 'frontOffice/%thelia_front_template%/anon-components/'",
+                        "  defaults:",
+                        "    # Namespace & directory for components",
+                        "    FlexyComponents\\:",
+                        "      template_directory: 'frontOffice/%thelia_front_template%/twig-components/'",
+                        "      name_prefix: Flexy"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "1aad8e2b0bd999c473c0fdc4bc606aaf6bf81f40"
+        }
+    }
+}
