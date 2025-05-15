@@ -3,8 +3,6 @@
     "stimulus": "symfony/stimulus-bundle",
     "stimulus-bundle": "symfony/stimulus-bundle",
     "stimulusbundle": "symfony/stimulus-bundle",
-    "twig-bundle": "symfony/twig-bundle",
-    "twigbundle": "symfony/twig-bundle",
     "ux-icons": "symfony/ux-icons",
     "ux-live-component": "symfony/ux-live-component",
     "ux-react": "symfony/ux-react",
@@ -20,14 +18,13 @@
   },
   "recipes": {
     "symfony/stimulus-bundle": ["2.9"],
-    "symfony/twig-bundle": ["6.4"],
     "symfony/ux-icons": ["2.17"],
     "symfony/ux-live-component": ["2.6"],
     "symfony/ux-react": ["2.9"],
     "symfony/ux-translator": ["2.9"],
     "symfony/ux-twig-component": ["2.13"],
     "symfony/webpack-encore-bundle": ["2.1"],
-    "thelia/flexy-bundle": ["dev-twig"]
+    "thelia/flexy": ["0.2"]
   },
   "recipe-conflicts": {
     "symfony/stimulus-bundle": {
