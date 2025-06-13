@@ -5,6 +5,7 @@
     "stimulusbundle": "symfony/stimulus-bundle",
     "twig-bundle": "symfony/twig-bundle",
     "twigbundle": "symfony/twig-bundle",
+    "translation": "symfony/translation",
     "ux-icons": "symfony/ux-icons",
     "ux-live-component": "symfony/ux-live-component",
     "ux-react": "symfony/ux-react",
@@ -20,6 +21,7 @@
   },
   "recipes": {
     "symfony/stimulus-bundle": ["2.9"],
+    "symfony/translation": ["6.3"],
     "symfony/twig-bundle": ["6.4"],
     "symfony/ux-icons": ["2.17"],
     "symfony/ux-live-component": ["2.6"],
