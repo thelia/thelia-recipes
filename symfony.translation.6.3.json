@@ -14,7 +14,7 @@
             "  translator:",
             "    default_path: '%kernel.project_dir%/translations'",
             "    fallbacks:",
-            "       - en_US:",
+            "      - en_US",
             "    providers:",
             ""
           ],
