@@ -2,7 +2,9 @@
   "manifests": {
     "thelia/flexy": {
       "manifest": {
-        "bundles": {},
+        "bundles": {
+          "FlexyBundle\\FlexyBundle": false
+        },
         "conflict": {},
         "env": {
           "ACTIVE_FRONT_TEMPLATE": "flexy"
