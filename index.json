@@ -20,6 +20,7 @@
     "webpackencorebundle": "symfony/webpack-encore-bundle"
   },
   "recipes": {
+    "lexik/jwt-authentication-bundle": ["3.2"],
     "symfony/stimulus-bundle": ["2.9"],
     "symfony/translation": ["6.3"],
     "symfony/twig-bundle": ["6.4"],
