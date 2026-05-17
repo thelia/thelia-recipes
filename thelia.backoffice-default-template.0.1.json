@@ -1,0 +1,26 @@
+{
+  "manifests": {
+    "thelia/backoffice-default-template": {
+      "manifest": {
+        "bundles": {
+          "BackOfficeDefaultBundle\\BackOfficeDefaultBundle": ["all"]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%/"
+        }
+      },
+      "files": {
+        "config/routes/bo_default.yaml": {
+          "contents": [
+            "bo_default_admin_attributes:",
+            "    resource: .",
+            "    type: bo_default_attribute",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "thelia-backoffice-default-template-0.1"
+    }
+  }
+}
