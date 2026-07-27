@@ -1,0 +1,16 @@
+{
+    "manifests": {
+        "thelia/flexy": {
+            "manifest": {
+                "bundles": {
+                    "FlexyBundle\\FlexyBundle": ["all"]
+                },
+                "env": {
+                    "ACTIVE_FRONT_TEMPLATE": "flexy"
+                }
+            },
+            "files": [],
+            "ref": "thelia-flexy-1.0"
+        }
+    }
+}

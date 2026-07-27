@@ -1,0 +1,16 @@
+{
+  "manifests": {
+    "thelia/backoffice-default-twig-template": {
+      "manifest": {
+        "bundles": {
+          "BackOfficeDefaultTwigBundle\\BackOfficeDefaultTwigBundle": ["all"]
+        },
+        "env": {
+          "ACTIVE_ADMIN_TEMPLATE": "default-twig"
+        }
+      },
+      "files": [],
+      "ref": "thelia-backoffice-default-twig-template-1.0"
+    }
+  }
+}

@@ -31,8 +31,8 @@
     "symfony/ux-twig-component": ["2.13"],
     "symfony/webpack-encore-bundle": ["2.1"],
     "thelia/backoffice-default-template": ["0.1"],
-    "thelia/backoffice-default-twig-template": ["0.1"],
-    "thelia/flexy": ["0.2"]
+    "thelia/backoffice-default-twig-template": ["0.1", "1.0"],
+    "thelia/flexy": ["0.2", "1.0"]
   },
   "recipe-conflicts": {
     "symfony/stimulus-bundle": {
