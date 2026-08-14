@@ -6,6 +6,8 @@
     "stimulus": "symfony/stimulus-bundle",
     "stimulus-bundle": "symfony/stimulus-bundle",
     "stimulusbundle": "symfony/stimulus-bundle",
+    "tailwind": "symfonycasts/tailwind-bundle",
+    "tailwindcss": "symfonycasts/tailwind-bundle",
     "twig-bundle": "symfony/twig-bundle",
     "twigbundle": "symfony/twig-bundle",
     "translation": "symfony/translation",
@@ -34,6 +36,7 @@
     "symfony/ux-translator": ["2.9"],
     "symfony/ux-twig-component": ["2.13"],
     "symfony/webpack-encore-bundle": ["2.1"],
+    "symfonycasts/tailwind-bundle": ["0.8"],
     "thelia/backoffice-default-template": ["0.1"],
     "thelia/backoffice-default-twig-template": ["0.1", "1.0"],
     "thelia/flexy": ["0.2", "1.0"]

@@ -1,0 +1,19 @@
+{
+    "manifests": {
+        "symfonycasts/tailwind-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Symfonycasts\\TailwindBundle\\SymfonycastsTailwindBundle": [
+                        "all"
+                    ]
+                },
+                "aliases": [
+                    "tailwind",
+                    "tailwindcss"
+                ]
+            },
+            "files": [],
+            "ref": "984d337aabb837ab5f20322af0290111f98c164a"
+        }
+    }
+}
