@@ -1,0 +1,16 @@
+{
+    "manifests": {
+        "symfony/asset-mapper": {
+            "manifest": {
+                "copy-from-recipe": [],
+                "conflict": {
+                    "symfony/framework-bundle": "<6.3",
+                    "symfony/twig-bundle": "<6.3",
+                    "symfony/flex": "<1.20.0 || >=2.0.0,<2.3.0"
+                }
+            },
+            "files": [],
+            "ref": "c01c47af2ec66a74ec046eccb919cfe27d3464ec"
+        }
+    }
+}
