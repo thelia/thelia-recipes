@@ -27,8 +27,6 @@
                         "liip_imagine:",
                         "    # valid drivers options include \"gd\" or \"gmagick\" or \"imagick\"",
                         "    driver: \"gd\"",
-                        "    # The bundle default is \"legacy\", which loads a deprecated Twig extension that emits a",
-                        "    # deprecation on every request. \"lazy\" exposes the same filters without it.",
                         "    twig:",
                         "        mode: lazy",
                         ""
