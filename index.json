@@ -33,6 +33,7 @@
   },
   "recipes": {
     "lexik/jwt-authentication-bundle": ["3.2"],
+    "liip/imagine-bundle": ["1.8"],
     "symfony/asset-mapper": ["6.4"],
     "symfony/monolog-bundle": ["3.7"],
     "symfony/stimulus-bundle": ["2.9"],
