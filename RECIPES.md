@@ -5,6 +5,7 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | Package | Latest Recipe | Aliases |
 | --- | --- | --- |
 | [symfony/asset-mapper](https://packagist.org/packages/symfony/asset-mapper) | [6.4](symfony/asset-mapper/6.4) | `asset-mapper`, `assetmapper`, `importmap` |
+| [symfony/monolog-bundle](https://packagist.org/packages/symfony/monolog-bundle) | [3.7](symfony/monolog-bundle/3.7) | `log`, `logger`, `logging`, `logs`, `monolog`, `monolog-bundle`, `monologbundle` |
 | [symfony/stimulus-bundle](https://packagist.org/packages/symfony/stimulus-bundle) | [2.9](symfony/stimulus-bundle/2.9) | `stimulus`, `stimulus-bundle`, `stimulusbundle` |
 | [symfony/twig-bundle](https://packagist.org/packages/symfony/twig-bundle) | [6.4](symfony/twig-bundle/6.4) | `twig-bundle`, `twigbundle` |
 | [symfony/ux-icons](https://packagist.org/packages/symfony/ux-icons) | [2.17](symfony/ux-icons/2.17) | `ux-icons`, `uxicons` |
