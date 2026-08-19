@@ -1,0 +1,19 @@
+{
+    "manifests": {
+        "symfonycasts/sass-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Symfonycasts\\SassBundle\\SymfonycastsSassBundle": [
+                        "all"
+                    ]
+                },
+                "aliases": [
+                    "sass",
+                    "sass-bundle"
+                ]
+            },
+            "files": [],
+            "ref": "30e62294d0e3b1e420a8fd5598f385d709da4b4d"
+        }
+    }
+}

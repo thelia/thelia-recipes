@@ -1,100 +1,141 @@
 {
-  "aliases": {
-    "asset-mapper": "symfony/asset-mapper",
-    "assetmapper": "symfony/asset-mapper",
-    "importmap": "symfony/asset-mapper",
-    "log": "symfony/monolog-bundle",
-    "logger": "symfony/monolog-bundle",
-    "logging": "symfony/monolog-bundle",
-    "logs": "symfony/monolog-bundle",
-    "monolog": "symfony/monolog-bundle",
-    "monolog-bundle": "symfony/monolog-bundle",
-    "monologbundle": "symfony/monolog-bundle",
-    "stimulus": "symfony/stimulus-bundle",
-    "stimulus-bundle": "symfony/stimulus-bundle",
-    "stimulusbundle": "symfony/stimulus-bundle",
-    "tailwind": "symfonycasts/tailwind-bundle",
-    "tailwindcss": "symfonycasts/tailwind-bundle",
-    "twig-bundle": "symfony/twig-bundle",
-    "twigbundle": "symfony/twig-bundle",
-    "translation": "symfony/translation",
-    "ux-icons": "symfony/ux-icons",
-    "ux-live-component": "symfony/ux-live-component",
-    "ux-react": "symfony/ux-react",
-    "ux-translator": "symfony/ux-translator",
-    "ux-twig-component": "symfony/ux-twig-component",
-    "uxicons": "symfony/ux-icons",
-    "uxlivecomponent": "symfony/ux-live-component",
-    "uxreact": "symfony/ux-react",
-    "uxtranslator": "symfony/ux-translator",
-    "uxtwigcomponent": "symfony/ux-twig-component",
-    "webpack-encore-bundle": "symfony/webpack-encore-bundle",
-    "webpackencorebundle": "symfony/webpack-encore-bundle"
-  },
-  "recipes": {
-    "lexik/jwt-authentication-bundle": ["3.2"],
-    "liip/imagine-bundle": ["1.8"],
-    "symfony/asset-mapper": ["6.4"],
-    "symfony/monolog-bundle": ["3.7"],
-    "symfony/stimulus-bundle": ["2.9"],
-    "symfony/translation": ["6.3"],
-    "symfony/twig-bundle": ["6.4"],
-    "symfony/ux-icons": ["2.17"],
-    "symfony/ux-live-component": ["2.6"],
-    "symfony/ux-react": ["2.9"],
-    "symfony/ux-translator": ["2.9"],
-    "symfony/ux-twig-component": ["2.13"],
-    "symfony/webpack-encore-bundle": ["2.1"],
-    "symfonycasts/tailwind-bundle": ["0.8"],
-    "thelia/backoffice-default-template": ["0.1"],
-    "thelia/backoffice-default-twig-template": ["0.1", "1.0"],
-    "thelia/flexy": ["0.2", "1.0"]
-  },
-  "recipe-conflicts": {
-    "symfony/asset-mapper": {
-      "6.4": {
-        "symfony/flex": "<1.20.0 || >=2.0.0,<2.3.0",
-        "symfony/framework-bundle": "<6.3",
-        "symfony/twig-bundle": "<6.3"
-      }
+    "aliases": {
+        "asset-mapper": "symfony/asset-mapper",
+        "assetmapper": "symfony/asset-mapper",
+        "importmap": "symfony/asset-mapper",
+        "log": "symfony/monolog-bundle",
+        "logger": "symfony/monolog-bundle",
+        "logging": "symfony/monolog-bundle",
+        "logs": "symfony/monolog-bundle",
+        "monolog": "symfony/monolog-bundle",
+        "monolog-bundle": "symfony/monolog-bundle",
+        "monologbundle": "symfony/monolog-bundle",
+        "sass": "symfonycasts/sass-bundle",
+        "sass-bundle": "symfonycasts/sass-bundle",
+        "stimulus": "symfony/stimulus-bundle",
+        "stimulus-bundle": "symfony/stimulus-bundle",
+        "stimulusbundle": "symfony/stimulus-bundle",
+        "tailwind": "symfonycasts/tailwind-bundle",
+        "tailwindcss": "symfonycasts/tailwind-bundle",
+        "translation": "symfony/translation",
+        "twig-bundle": "symfony/twig-bundle",
+        "twigbundle": "symfony/twig-bundle",
+        "ux-icons": "symfony/ux-icons",
+        "ux-live-component": "symfony/ux-live-component",
+        "ux-react": "symfony/ux-react",
+        "ux-translator": "symfony/ux-translator",
+        "ux-twig-component": "symfony/ux-twig-component",
+        "uxicons": "symfony/ux-icons",
+        "uxlivecomponent": "symfony/ux-live-component",
+        "uxreact": "symfony/ux-react",
+        "uxtranslator": "symfony/ux-translator",
+        "uxtwigcomponent": "symfony/ux-twig-component",
+        "webpack-encore-bundle": "symfony/webpack-encore-bundle",
+        "webpackencorebundle": "symfony/webpack-encore-bundle"
     },
-    "symfony/monolog-bundle": {
-      "3.7": {
-        "symfony/framework-bundle": "<5.3"
-      }
+    "recipes": {
+        "lexik/jwt-authentication-bundle": [
+            "3.2"
+        ],
+        "liip/imagine-bundle": [
+            "1.8"
+        ],
+        "symfony/asset-mapper": [
+            "6.4"
+        ],
+        "symfony/monolog-bundle": [
+            "3.7"
+        ],
+        "symfony/stimulus-bundle": [
+            "2.9"
+        ],
+        "symfony/translation": [
+            "6.3"
+        ],
+        "symfony/twig-bundle": [
+            "6.4"
+        ],
+        "symfony/ux-icons": [
+            "2.17"
+        ],
+        "symfony/ux-live-component": [
+            "2.6"
+        ],
+        "symfony/ux-react": [
+            "2.9"
+        ],
+        "symfony/ux-translator": [
+            "2.9"
+        ],
+        "symfony/ux-twig-component": [
+            "2.13"
+        ],
+        "symfony/webpack-encore-bundle": [
+            "2.1"
+        ],
+        "symfonycasts/sass-bundle": [
+            "0.10"
+        ],
+        "symfonycasts/tailwind-bundle": [
+            "0.8"
+        ],
+        "thelia/backoffice-default-template": [
+            "0.1"
+        ],
+        "thelia/backoffice-default-twig-template": [
+            "0.1",
+            "1.0"
+        ],
+        "thelia/flexy": [
+            "0.2",
+            "1.0"
+        ]
     },
-    "symfony/stimulus-bundle": {
-      "2.9": {
-        "symfony/flex": "<1.20.0 || >=2.0.0,<2.3.0",
-        "symfony/webpack-encore-bundle": "<2.0"
-      }
+    "recipe-conflicts": {
+        "symfony/asset-mapper": {
+            "6.4": {
+                "symfony/flex": "<1.20.0 || >=2.0.0,<2.3.0",
+                "symfony/framework-bundle": "<6.3",
+                "symfony/twig-bundle": "<6.3"
+            }
+        },
+        "symfony/monolog-bundle": {
+            "3.7": {
+                "symfony/framework-bundle": "<5.3"
+            }
+        },
+        "symfony/stimulus-bundle": {
+            "2.9": {
+                "symfony/flex": "<1.20.0 || >=2.0.0,<2.3.0",
+                "symfony/webpack-encore-bundle": "<2.0"
+            }
+        },
+        "symfony/twig-bundle": {
+            "6.4": {
+                "symfony/framework-bundle": "<5.3"
+            }
+        },
+        "symfony/ux-react": {
+            "2.9": {
+                "symfony/flex": "<1.20.0 || >=2.0.0,<2.3.0",
+                "symfony/webpack-encore-bundle": "<2.0"
+            }
+        },
+        "symfony/ux-translator": {
+            "2.9": {
+                "symfony/flex": "<1.20.0 || >=2.0.0,<2.3.0"
+            }
+        }
     },
-    "symfony/twig-bundle": {
-      "6.4": {
-        "symfony/framework-bundle": "<5.3"
-      }
-    },
-    "symfony/ux-react": {
-      "2.9": {
-        "symfony/flex": "<1.20.0 || >=2.0.0,<2.3.0",
-        "symfony/webpack-encore-bundle": "<2.0"
-      }
-    },
-    "symfony/ux-translator": {
-      "2.9": {
-        "symfony/flex": "<1.20.0 || >=2.0.0,<2.3.0"
-      }
+    "versions": [],
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/thelia/thelia-recipes",
+        "origin_template": "{package}:{version}@github.com/thelia/thelia-recipes:main",
+        "recipe_template": "https://raw.githubusercontent.com/thelia/thelia-recipes/main/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/thelia/thelia-recipes/main/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
     }
-  },
-  "versions": [],
-  "branch": "main",
-  "is_contrib": true,
-  "_links": {
-    "repository": "github.com/thelia/thelia-recipes",
-    "origin_template": "{package}:{version}@github.com/thelia/thelia-recipes:main",
-    "recipe_template": "https://raw.githubusercontent.com/thelia/thelia-recipes/main/{package_dotted}.{version}.json",
-    "recipe_template_relative": "{package_dotted}.{version}.json",
-    "archived_recipes_template": "https://raw.githubusercontent.com/thelia/thelia-recipes/main/archived/{package_dotted}/{ref}.json",
-    "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
-  }
 }
