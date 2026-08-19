@@ -10,10 +10,25 @@
                 "aliases": [
                     "sass",
                     "sass-bundle"
-                ]
+                ],
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
             },
-            "files": [],
-            "ref": "30e62294d0e3b1e420a8fd5598f385d709da4b4d"
+            "files": {
+                "config/packages/symfonycasts_sass.yaml": {
+                    "contents": [
+                        "symfonycasts_sass:",
+                        "    # The bundle compiles with dart-sass flags: a stray `sass` binary found in",
+                        "    # the system PATH (Clever Cloud ships a Ruby one) breaks the build. Always",
+                        "    # use the dart-sass binary the bundle downloads. The active back-office",
+                        "    # theme prepends its own root_sass, nothing else to declare here.",
+                        "    search_for_binary: false"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "b9a0352e689d289c7ed53feacc32673d5583004d"
         }
     }
 }
