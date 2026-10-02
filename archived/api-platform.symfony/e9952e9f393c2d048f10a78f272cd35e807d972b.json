@@ -29,8 +29,6 @@
                     "contents": [
                         "api_platform:",
                         "    defaults:",
-                        "        extra_properties:",
-                        "            deduplicate_resource_short_names: true",
                         "        cache_headers:",
                         "            vary: ['Content-Type', 'Authorization', 'Origin']",
                         ""
@@ -54,7 +52,7 @@
                     "executable": false
                 }
             },
-            "ref": "thelia-api-platform-deduplicate-short-names"
+            "ref": "e9952e9f393c2d048f10a78f272cd35e807d972b"
         }
     }
 }
