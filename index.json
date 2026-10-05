@@ -46,8 +46,14 @@
         "symfony/asset-mapper": [
             "6.4"
         ],
+        "symfony/messenger": [
+            "6.0"
+        ],
         "symfony/monolog-bundle": [
             "3.7"
+        ],
+        "symfony/scheduler": [
+            "7.2"
         ],
         "symfony/stimulus-bundle": [
             "2.9"
