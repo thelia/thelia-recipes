@@ -7,11 +7,13 @@
         "logger": "symfony/monolog-bundle",
         "logging": "symfony/monolog-bundle",
         "logs": "symfony/monolog-bundle",
+        "messenger": "symfony/messenger",
         "monolog": "symfony/monolog-bundle",
         "monolog-bundle": "symfony/monolog-bundle",
         "monologbundle": "symfony/monolog-bundle",
         "sass": "symfonycasts/sass-bundle",
         "sass-bundle": "symfonycasts/sass-bundle",
+        "scheduler": "symfony/scheduler",
         "stimulus": "symfony/stimulus-bundle",
         "stimulus-bundle": "symfony/stimulus-bundle",
         "stimulusbundle": "symfony/stimulus-bundle",
@@ -46,8 +48,14 @@
         "symfony/asset-mapper": [
             "6.4"
         ],
+        "symfony/messenger": [
+            "6.0"
+        ],
         "symfony/monolog-bundle": [
             "3.7"
+        ],
+        "symfony/scheduler": [
+            "7.2"
         ],
         "symfony/stimulus-bundle": [
             "2.9"

@@ -1,0 +1,9 @@
+{
+  "manifests": {
+    "symfony/scheduler": {
+      "manifest": {},
+      "files": [],
+      "ref": "thelia-scheduler-without-a-schedule"
+    }
+  }
+}

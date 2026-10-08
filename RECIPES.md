@@ -6,7 +6,9 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | --- | --- | --- |
 | [liip/imagine-bundle](https://packagist.org/packages/liip/imagine-bundle) | [1.8](liip/imagine-bundle/1.8) | |
 | [symfony/asset-mapper](https://packagist.org/packages/symfony/asset-mapper) | [6.4](symfony/asset-mapper/6.4) | `asset-mapper`, `assetmapper`, `importmap` |
+| [symfony/messenger](https://packagist.org/packages/symfony/messenger) | [6.0](symfony/messenger/6.0) | `messenger` |
 | [symfony/monolog-bundle](https://packagist.org/packages/symfony/monolog-bundle) | [3.7](symfony/monolog-bundle/3.7) | `log`, `logger`, `logging`, `logs`, `monolog`, `monolog-bundle`, `monologbundle` |
+| [symfony/scheduler](https://packagist.org/packages/symfony/scheduler) | [7.2](symfony/scheduler/7.2) | `scheduler` |
 | [symfony/stimulus-bundle](https://packagist.org/packages/symfony/stimulus-bundle) | [2.9](symfony/stimulus-bundle/2.9) | `stimulus`, `stimulus-bundle`, `stimulusbundle` |
 | [symfony/twig-bundle](https://packagist.org/packages/symfony/twig-bundle) | [6.4](symfony/twig-bundle/6.4) | `twig-bundle`, `twigbundle` |
 | [symfony/ux-icons](https://packagist.org/packages/symfony/ux-icons) | [2.17](symfony/ux-icons/2.17) | `ux-icons`, `uxicons` |
